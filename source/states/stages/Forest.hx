@@ -18,12 +18,16 @@ class Forest extends BaseStage
         //fogata.visible = true;
 
         var cielo:BGSprite = new BGSprite('forest/cielo', -1100, -1100, 0.9, 0.9);
+        cielo.scrollFactor.set(0.9, 0.9);
         add(cielo);
         var nubes:BGSprite = new BGSprite('forest/nubes', -1100, -1100, 0.9, 0.9);
+        nubes.scrollFactor.set(0.9, 0.9);
         add(nubes);
         var atras:BGSprite = new BGSprite('forest/atras', -1100, -1100, 0.9, 0.9);
+        atras.scrollFactor.set(0.0, 0.0);
         add(atras);
         var fogata:BGSprite = new BGSprite('forest/fogata', -1100, -1100, 0.9, 0.9);
+        fogata.scrollFactor.set(0.0, 0.0);
         add(fogata);
 
 	}
@@ -31,6 +35,7 @@ class Forest extends BaseStage
 	override function createPost()
 	{
          var bus:BGSprite = new BGSprite('forest/bus', -1100, -1100, 0.9, 0.9);
+         bus.scrollFactor.set(0.0, 0.0);
          add(bus);
       /*  var bus:FlxSprite = new FlxSprite(0, -200).loadGraphic(Paths.image('forest/bus'));
         bus.setGraphicSize(Std.int(bus.width * 1.1));
