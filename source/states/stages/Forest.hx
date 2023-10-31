@@ -35,7 +35,7 @@ class Forest extends BaseStage
 	override function createPost()
 	{
          var bus:BGSprite = new BGSprite('forest/bus', -1100, -1100, 0.9, 0.9);
-         //bus.scrollFactor.set(0.0, 0.0);
+         bus.scrollFactor.set(0.0, 0.0);
          add(bus);
       /*  var bus:FlxSprite = new FlxSprite(0, -200).loadGraphic(Paths.image('forest/bus'));
         bus.setGraphicSize(Std.int(bus.width * 1.1));
