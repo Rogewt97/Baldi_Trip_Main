@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="corrupted_school.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="escuela instancia 10000" x="0" y="0" width="1877" height="899" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10001" x="0" y="0" width="1877" height="899" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10002" x="1877" y="0" width="1877" height="899" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10003" x="1877" y="0" width="1877" height="899" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10004" x="3754" y="0" width="1877" height="899" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10005" x="5631" y="0" width="1880" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10006" x="0" y="899" width="1880" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10007" x="0" y="899" width="1880" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10008" x="1880" y="899" width="1880" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10009" x="1880" y="899" width="1880" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10010" x="3760" y="899" width="1879" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10011" x="3760" y="899" width="1879" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10012" x="5639" y="899" width="1879" height="900" frameX="0" frameY="-23" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10013" x="5639" y="899" width="1879" height="900" frameX="0" frameY="-23" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10014" x="0" y="1799" width="1879" height="898" frameX="0" frameY="-25" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10015" x="1879" y="1799" width="1877" height="906" frameX="0" frameY="-20" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10016" x="1879" y="1799" width="1877" height="906" frameX="0" frameY="-20" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10017" x="3756" y="1799" width="1877" height="926" frameX="0" frameY="0" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10018" x="3756" y="1799" width="1877" height="926" frameX="0" frameY="0" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10019" x="5633" y="1799" width="1877" height="899" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10020" x="0" y="2725" width="1880" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10021" x="1880" y="2725" width="1880" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10022" x="1880" y="2725" width="1880" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10023" x="3760" y="2725" width="1880" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10024" x="3760" y="2725" width="1880" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10025" x="5640" y="2725" width="1879" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10026" x="5640" y="2725" width="1879" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10027" x="0" y="3621" width="1879" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10028" x="0" y="3621" width="1879" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+	<SubTexture name="escuela instancia 10029" x="1879" y="3621" width="1879" height="896" frameX="0" frameY="-27" frameWidth="1880" frameHeight="926"/>
+</TextureAtlas>

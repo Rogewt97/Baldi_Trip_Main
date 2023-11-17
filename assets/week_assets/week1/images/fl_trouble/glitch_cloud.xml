@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="glitch_cloud.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="nubes y shit instancia 10000" x="0" y="0" width="480" height="462" frameX="-145" frameY="-46" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10001" x="480" y="0" width="679" height="511" frameX="0" frameY="-53" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10002" x="480" y="0" width="679" height="511" frameX="0" frameY="-53" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10003" x="1159" y="0" width="520" height="463" frameX="-146" frameY="-40" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10004" x="1159" y="0" width="520" height="463" frameX="-146" frameY="-40" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10005" x="0" y="511" width="583" height="464" frameX="-38" frameY="-43" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10006" x="0" y="511" width="583" height="464" frameX="-38" frameY="-43" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10007" x="583" y="511" width="541" height="505" frameX="-123" frameY="0" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10008" x="583" y="511" width="541" height="505" frameX="-123" frameY="0" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10009" x="1124" y="511" width="561" height="465" frameX="-144" frameY="-39" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10010" x="1124" y="511" width="561" height="465" frameX="-144" frameY="-39" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10011" x="0" y="1016" width="481" height="462" frameX="-141" frameY="-41" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10012" x="0" y="1016" width="481" height="462" frameX="-141" frameY="-41" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10013" x="481" y="1016" width="519" height="464" frameX="-144" frameY="-46" frameWidth="705" frameHeight="564"/>
+	<SubTexture name="nubes y shit instancia 10014" x="481" y="1016" width="519" height="464" frameX="-144" frameY="-46" frameWidth="705" frameHeight="564"/>
+</TextureAtlas>

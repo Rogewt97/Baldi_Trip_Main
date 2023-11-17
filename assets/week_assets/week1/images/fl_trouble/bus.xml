@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bus.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cambion instancia 10000" x="0" y="0" width="995" height="966"/>
+	<SubTexture name="cambion instancia 10001" x="0" y="0" width="995" height="966"/>
+	<SubTexture name="cambion instancia 10002" x="0" y="0" width="995" height="966"/>
+	<SubTexture name="cambion instancia 10003" x="0" y="0" width="995" height="966"/>
+	<SubTexture name="cambion instancia 10004" x="0" y="0" width="995" height="966"/>
+	<SubTexture name="cambion instancia 10005" x="995" y="0" width="995" height="964" frameX="0" frameY="-2" frameWidth="995" frameHeight="966"/>
+	<SubTexture name="cambion instancia 10006" x="995" y="0" width="995" height="964" frameX="0" frameY="-2" frameWidth="995" frameHeight="966"/>
+	<SubTexture name="cambion instancia 10007" x="995" y="0" width="995" height="964" frameX="0" frameY="-2" frameWidth="995" frameHeight="966"/>
+	<SubTexture name="cambion instancia 10008" x="995" y="0" width="995" height="964" frameX="0" frameY="-2" frameWidth="995" frameHeight="966"/>
+	<SubTexture name="cambion instancia 10009" x="995" y="0" width="995" height="964" frameX="0" frameY="-2" frameWidth="995" frameHeight="966"/>
+	<SubTexture name="cambion instancia 10010" x="0" y="966" width="992" height="964" frameX="0" frameY="-2" frameWidth="995" frameHeight="966"/>
+	<SubTexture name="cambion instancia 10011" x="0" y="966" width="992" height="964" frameX="0" frameY="-2" frameWidth="995" frameHeight="966"/>
+	<SubTexture name="cambion instancia 10012" x="0" y="966" width="992" height="964" frameX="0" frameY="-2" frameWidth="995" frameHeight="966"/>
+	<SubTexture name="cambion instancia 10013" x="0" y="966" width="992" height="964" frameX="0" frameY="-2" frameWidth="995" frameHeight="966"/>
+	<SubTexture name="cambion instancia 10014" x="0" y="966" width="992" height="964" frameX="0" frameY="-2" frameWidth="995" frameHeight="966"/>
+</TextureAtlas>

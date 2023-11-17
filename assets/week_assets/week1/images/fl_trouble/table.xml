@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="table.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mesa instancia 10000" x="0" y="0" width="1032" height="588" frameX="0" frameY="-1" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10001" x="0" y="0" width="1032" height="588" frameX="0" frameY="-1" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10002" x="0" y="0" width="1032" height="588" frameX="0" frameY="-1" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10003" x="0" y="0" width="1032" height="588" frameX="0" frameY="-1" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10004" x="0" y="0" width="1032" height="588" frameX="0" frameY="-1" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10005" x="0" y="588" width="1030" height="588" frameX="0" frameY="0" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10006" x="0" y="588" width="1030" height="588" frameX="0" frameY="0" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10007" x="0" y="588" width="1030" height="588" frameX="0" frameY="0" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10008" x="0" y="588" width="1030" height="588" frameX="0" frameY="0" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10009" x="0" y="588" width="1030" height="588" frameX="0" frameY="0" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10010" x="0" y="1176" width="1030" height="594" frameX="0" frameY="0" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10011" x="0" y="1176" width="1030" height="594" frameX="0" frameY="0" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10012" x="0" y="1176" width="1030" height="594" frameX="0" frameY="0" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10013" x="0" y="1176" width="1030" height="594" frameX="0" frameY="0" frameWidth="1032" frameHeight="594"/>
+	<SubTexture name="mesa instancia 10014" x="0" y="1176" width="1030" height="594" frameX="0" frameY="0" frameWidth="1032" frameHeight="594"/>
+</TextureAtlas>
