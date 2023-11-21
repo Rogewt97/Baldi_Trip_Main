@@ -1,0 +1,41 @@
+{
+	"songs": [
+		[
+			"trip",
+			"dad",
+			[
+				0,
+				133,
+				20
+			]
+		],
+		[
+			"encrypted-gateway",
+			"dad",
+			[
+				255,
+				13,
+				35
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Baldi camping!",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

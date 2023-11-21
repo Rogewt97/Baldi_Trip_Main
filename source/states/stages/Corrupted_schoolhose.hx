@@ -5,32 +5,18 @@ import objects.Character;
 
 class Forest extends BaseStage
 {
-  var cielo:BGSprite;
-  var nubes:BGSprite;
-  var atras:BGSprite;
-  var fogata:BGSprite;
-  var fogataf:BGSprite;
-  var layer:BGSprite;
-  var bus:BGSprite;
-  var baldi:BGSprite;
+  var schoolhouse:BgSprite;
+  var bus:BgSprite;
+  var table:BgSprite;
+  var platform:BgSprite;
+  var cloud:BgSprite;
+  var cloudy:BgSprite;
 
 	override function create()
 	{
-        cielo = new BGSprite('forest/cielo', -1100, -1100, 0.9, 0.9);
-        cielo.scrollFactor.set( 0.5, 0.5);
-        add(cielo);
-
-        nubes= new BGSprite('forest/nubes', -1100, -1100, 0.9, 0.9);
-        nubes.scrollFactor.set(0.5, 0.5);
-        add(nubes);
-        
-        atras= new BGSprite('forest/atras', -1100, -1100, 0.9, 0.9);
-        atras.scrollFactor.set(1, 1);
-        add(atras);
-
-        fogata= new BGSprite('forest/fogata', -1100, -1100, 0.9, 0.9);
-        fogata.scrollFactor.set(1, 1);
-        add(fogata);
+    schoolhouse = new BGSprite('fl_trouble/corrupted_school', 500, 300, 0.9, 0.9, ['escuela instancia 1']);
+    fogataf.scrollFactor.set(1, 1);
+    add(schoolhouse);
 
         if(!ClientPrefs.data.lowQuality)
           {
@@ -55,18 +41,16 @@ class Forest extends BaseStage
 		  //baldi.blend = ADD;
       //add(baldi);
   }
-  
-  override function countdownTick(count:Countdown, num:Int) everyoneDance();
-  override function beatHit() everyoneDance();
 
   override function countdownTick(count:Countdown, num:Int) if(num % 2 == 0) everyoneDance();
 	override function beatHit() everyoneDance();
+
 	function everyoneDance()
 	{
-		if(!ClientPrefs.data.lowQuality) fogataf.dance();
-		/*foregroundSprites.forEach(function(spr:BGSprite)
-		{
-			spr.dance();
-		});*/
+		if(!ClientPrefs.data.lowQuality)
+			upperBoppers.dance(true);
+
+		schoolhouse.dance(true);
+		santa.dance(true);
 	}
 }

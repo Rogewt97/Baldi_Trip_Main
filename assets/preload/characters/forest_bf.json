@@ -1,103 +1,103 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				7,
 				19
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "BF NOTE LEFT MISS",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "BF NOTE LEFT MISS"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-15,
 				-19
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "BF NOTE DOWN MISS",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "BF NOTE DOWN MISS"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-46,
 				27
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "BF NOTE UP MISS",
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "BF NOTE UP MISS"
+		},
+		{
+			"offsets": [
+				-64,
+				22
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "BF NOTE RIGHT MISS"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-83,
+				-40
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-64,
-				22
+				-115,
+				-32
 			],
-			"anim": "singRIGHTmiss",
+			"anim": "singUP",
 			"fps": 24,
-			"name": "BF NOTE RIGHT MISS",
+			"name": "up",
 			"indices": []
+		},
+		{
+			"offsets": [
+				-103,
+				-32
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-76,
+				11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right"
 		},
 		{
 			"offsets": [
 				-115,
 				-33
 			],
-			"indices": [],
+			"loop": true,
 			"fps": 24,
 			"anim": "idle",
-			"loop": false,
+			"indices": [],
 			"name": "idle"
-		},
-		{
-			"offsets": [
-				-102,
-				-30
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singLEFT",
-			"loop": false,
-			"name": "left"
-		},
-		{
-			"offsets": [
-				-83,
-				-40
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singDOWN",
-			"loop": false,
-			"name": "down"
-		},
-		{
-			"offsets": [
-				-115,
-				-32
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singUP",
-			"loop": false,
-			"name": "up"
-		},
-		{
-			"offsets": [
-				-78,
-				13
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singRIGHT",
-			"loop": false,
-			"name": "right"
 		}
 	],
 	"no_antialiasing": false,
@@ -110,7 +110,7 @@
 	"flip_x": true,
 	"healthbar_colors": [
 		49,
-		176,
+		255,
 		209
 	],
 	"camera_position": [
