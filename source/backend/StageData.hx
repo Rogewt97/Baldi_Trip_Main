@@ -55,8 +55,10 @@ class StageData {
 		} else if(SONG.song != null) {
 			switch (SONG.song.toLowerCase().replace(' ', '-'))
 			{
-				case 'trip':
+				case 'trip' | 'sticks':
 					stage = 'forest';
+				case 'encrypted-gateway':
+					stage = 'brokenSchool';
 				case 'spookeez' | 'south' | 'monster':
 					stage = 'spooky';
 				case 'pico' | 'blammed' | 'philly' | 'philly-nice':
@@ -116,8 +118,10 @@ class StageData {
 	{
 		switch (songName)
 		{
-			case 'trip':
+			case 'trip' |'sticks':
 				return 'forest';
+			case 'encrypted-gateway' :
+				return 'brokenSchool';
 			case 'spookeez' | 'south' | 'monster':
 				return 'spooky';
 			case 'pico' | 'blammed' | 'philly' | 'philly-nice':
