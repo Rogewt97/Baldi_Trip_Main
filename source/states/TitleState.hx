@@ -185,6 +185,7 @@ class TitleState extends MusicBeatState
 	}
 
 	var logoBl:FlxSprite;
+	var baldihello:FlxSprite;
 	var gfDance:FlxSprite;
 	var danceLeft:Bool = false;
 	var titleText:FlxSprite;
@@ -215,6 +216,15 @@ class TitleState extends MusicBeatState
 		// bg.updateHitbox();
 		add(bg);
 
+		baldihello = new FlxSprite(titleJSON.titlex, titleJSON.titley);
+		baldihello.frames = Paths.getSparrowAtlas('camp_menu/baldi_hi');
+		baldihello.antialiasing = ClientPrefs.data.antialiasing;
+
+		baldihello.animation.addByPrefix('hi', 'Baldi instancia 1', 5, false);
+		baldihello.animation.play('hi');
+		baldihello.updateHitbox();
+		baldihello.screenCenter();
+
 		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
 		logoBl.antialiasing = ClientPrefs.data.antialiasing;
@@ -222,6 +232,7 @@ class TitleState extends MusicBeatState
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24, false);
 		logoBl.animation.play('bump');
 		logoBl.updateHitbox();
+		logoBl.visible = false;
 		// logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
 
@@ -264,7 +275,9 @@ class TitleState extends MusicBeatState
 		}
 
 		add(gfDance);
+		gfDance.visible = false;
 		add(logoBl);
+		add(baldihello);
 		if(swagShader != null)
 		{
 			gfDance.shader = swagShader.shader;
@@ -545,6 +558,9 @@ class TitleState extends MusicBeatState
 
 		if(logoBl != null)
 			logoBl.animation.play('bump', true);
+
+		if(baldihello != null)
+			baldihello.animation.play('hi', true);
 
 		if(gfDance != null) {
 			danceLeft = !danceLeft;

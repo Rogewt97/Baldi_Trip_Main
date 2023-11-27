@@ -40,7 +40,7 @@ class BrokenSchool extends BaseStage
             gcloud.scrollFactor.set(1, 1);
             add(gcloud);
 
-            gcloudb = new BGSprite('fl_trouble/glitch_coud2', 500, -700, 0.9, 0.9, ['Symbol 1 instancia 1']);
+            gcloudb = new BGSprite('fl_trouble/glitch_coud2', 1500, -700, 0.9, 0.9, ['Symbol 1 instancia 1']);
             gcloudb.scrollFactor.set(1, 1);
             add(gcloudb);
 
