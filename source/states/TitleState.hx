@@ -216,6 +216,7 @@ class TitleState extends MusicBeatState
 		// bg.updateHitbox();
 		add(bg);
 
+		
 		baldihello = new FlxSprite(titleJSON.titlex, titleJSON.titley);
 		baldihello.frames = Paths.getSparrowAtlas('camp_menu/baldi_hi');
 		baldihello.antialiasing = ClientPrefs.data.antialiasing;
@@ -275,7 +276,6 @@ class TitleState extends MusicBeatState
 		}
 
 		add(gfDance);
-		gfDance.visible = false;
 		add(logoBl);
 		add(baldihello);
 		if(swagShader != null)
@@ -332,7 +332,7 @@ class TitleState extends MusicBeatState
 
 		credTextShit.visible = false;
 
-		ngSpr = new FlxSprite(0, FlxG.height * 0.52).loadGraphic(Paths.image('newgrounds_logo'));
+		ngSpr = new FlxSprite(0, FlxG.height * 0.52).loadGraphic(Paths.image('duo_bitch'));
 		add(ngSpr);
 		ngSpr.visible = false;
 		ngSpr.setGraphicSize(Std.int(ngSpr.width * 0.8));
@@ -558,9 +558,6 @@ class TitleState extends MusicBeatState
 
 		if(logoBl != null)
 			logoBl.animation.play('bump', true);
-
-		if(baldihello != null)
-			baldihello.animation.play('hi', true);
 
 		if(gfDance != null) {
 			danceLeft = !danceLeft;
