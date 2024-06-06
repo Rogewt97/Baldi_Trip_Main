@@ -11,7 +11,9 @@ class BrokenSchool extends BaseStage
   var exitdoor:BGSprite;
   var gcloud:BGSprite;
   var gcloudb:BGSprite;
+  var bus:BGSprite;
   var platform:BGSprite;
+
 
 	override function create()
 	{
@@ -52,14 +54,17 @@ class BrokenSchool extends BaseStage
             exitdoor.scrollFactor.set(1, 1);
             add(exitdoor);
 
-            table = new BGSprite('fl_trouble/table', 1500, 550, 0.9, 0.9, ['mesa instancia 1']);
+            bus = new BGSprite('fl_trouble/bus', 1500, 0, 0.9, 0.9, ['cambion instancia 1']);
+            bus.scrollFactor.set(1, 1);
+            add(bus);
+
+            table = new BGSprite('fl_trouble/table', 1500, 700, 0.9, 0.9, ['mesa instancia 1']);
             table.scrollFactor.set(1, 1);
             add(table);
 
             platform = new BGSprite('fl_trouble/flplat', -600, 400, 0.9, 0.9, ['nul p instancia 1']);
             platform.scrollFactor.set(1, 1);
             add(platform);
-
           }
 	}
 /*
@@ -91,6 +96,7 @@ class BrokenSchool extends BaseStage
             gcloud.dance();
             gcloudb.dance();
             platform.dance();
+            bus.dance();
 		/*foregroundSprites.forEach(function(spr:BGSprite)
 		{
 			spr.dance();

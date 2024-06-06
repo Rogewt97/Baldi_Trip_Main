@@ -218,10 +218,10 @@ class TitleState extends MusicBeatState
 
 		
 		baldihello = new FlxSprite(titleJSON.titlex, titleJSON.titley);
-		baldihello.frames = Paths.getSparrowAtlas('camp_menu/baldi_hi');
+		baldihello.frames = Paths.getSparrowAtlas('camp_menu/Baldi_UI');
 		baldihello.antialiasing = ClientPrefs.data.antialiasing;
 
-		baldihello.animation.addByPrefix('hi', 'Baldi instancia 1', 5, false);
+		baldihello.animation.addByPrefix('hi', 'hi_there', 24, false);
 		baldihello.animation.play('hi');
 		baldihello.updateHitbox();
 		baldihello.screenCenter();
@@ -282,6 +282,7 @@ class TitleState extends MusicBeatState
 		{
 			gfDance.shader = swagShader.shader;
 			logoBl.shader = swagShader.shader;
+			baldihello.shader = swagShader.shader;
 		}
 
 		titleText = new FlxSprite(titleJSON.startx, titleJSON.starty);
@@ -558,6 +559,9 @@ class TitleState extends MusicBeatState
 
 		if(logoBl != null)
 			logoBl.animation.play('bump', true);
+		
+		if(baldihello != null)
+			baldihello.animation.play('hi', true);
 
 		if(gfDance != null) {
 			danceLeft = !danceLeft;
