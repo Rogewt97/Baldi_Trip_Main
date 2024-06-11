@@ -18,6 +18,7 @@ class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.7.1h'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
+	public static var firstStart:Bool = true;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
 	private var camGame:FlxCamera;
@@ -26,8 +27,10 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
+		//#if MODS_ALLOWED 'mods', #end
+		//#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
+		//#if !switch 'donate', #end
 		'options'
 	];
 
@@ -95,7 +98,7 @@ class MainMenuState extends MusicBeatState
 		{
 			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
 			var menuItem:FlxSprite = new FlxSprite(0, (i * 140)  + offset);
-			menuItem.antialiasing = ClientPrefs.data.antialiasing;
+			//menuItem.antialiasing = ClientPrefs.data.antialiasing;
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
@@ -103,16 +106,52 @@ class MainMenuState extends MusicBeatState
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
 			menuItem.ID = i;
-			menuItem.screenCenter(X);
+			//menuItem.screenCenter(X);
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
 			menuItem.scrollFactor.set(0, scr);
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
 			menuItem.updateHitbox();
+
+					//todo es putas al revez
+			switch (i) {
+				case 0: 
+					menuItem.y = -25;
+					menuItem.x = 50;
+
+				case 1: 
+					menuItem.y = 180;
+					menuItem.x = 50;
+
+				case 2:
+					menuItem.y = 325;
+					menuItem.x = 75;
+				case 3:
+					menuItem.y = 490;
+					menuItem.x = 0;
+
+				}
+
+
+			/*if(FlxG.save.data.antialiasing)
+				{
+				 menuItem.antialiasing = true;
+				}
+			   if (firstStart)
+				FlxTween.tween(menuItem,{y: 60 + (i * 160)},1 + (i * 0.25) ,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) 
+				 { 
+				  //finishedFunnyMove = true; 
+				  changeItem();
+				 }});
+			   else
+				menuItem.y = 60 + (i * 160); */
+
 		}
 
-		FlxG.camera.follow(camFollow, null, 0);
+		firstStart = false;
+
+		//FlxG.camera.follow(camFollow, null, 0);
 
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
@@ -256,10 +295,19 @@ class MainMenuState extends MusicBeatState
 
 		menuItems.forEach(function(spr:FlxSprite)
 		{
-			spr.screenCenter(X);
+			//spr.screenCenter(X);
 		});
 	}
 
+	override function beatHit() {
+		super.beatHit();
+
+		if (curBeat % 4 ==2)
+			{
+				FlxG.camera.zoom = 1.02;
+			}
+		
+	}
 	function changeItem(huh:Int = 0)
 	{
 		curSelected += huh;
@@ -282,7 +330,7 @@ class MainMenuState extends MusicBeatState
 					add = menuItems.length * 8;
 				}
 				camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y - add);
-				spr.centerOffsets();
+				//spr.centerOffsets();
 			}
 		});
 	}
