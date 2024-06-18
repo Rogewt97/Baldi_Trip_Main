@@ -17,55 +17,59 @@ class BrokenSchool extends BaseStage
 
 	override function create()
 	{
-        /*
-        cielo = new BGSprite('fl_trouble/cielo', -1100, -1100, 0.9, 0.9);
-        cielo.scrollFactor.set( 0.5, 0.5);
-        add(cielo);
+    /*
+    cielo = new BGSprite('fl_trouble/cielo', -1100, -1100, 0.9, 0.9);
+    cielo.scrollFactor.set( 0.5, 0.5);
+    add(cielo);
 
-        nubes= new BGSprite('fl_trouble/nubes', -1100, -1100, 0.9, 0.9);
-        nubes.scrollFactor.set(0.5, 0.5);
-        add(nubes);
+    nubes= new BGSprite('fl_trouble/nubes', -1100, -1100, 0.9, 0.9);
+    nubes.scrollFactor.set(0.5, 0.5);
+    add(nubes);
         
-        atras= new BGSprite('fl_trouble/atras', -1100, -1100, 0.9, 0.9);
-        atras.scrollFactor.set(1, 1);
-        add(atras);
+    atras= new BGSprite('fl_trouble/atras', -1100, -1100, 0.9, 0.9);
+    atras.scrollFactor.set(1, 1);
+    add(atras);
 
-        fogata= new BGSprite('fl_trouble/fogata', -1100, -1100, 0.9, 0.9);
-        fogata.scrollFactor.set(1, 1);
-        add(fogata);
+    fogata= new BGSprite('fl_trouble/fogata', -1100, -1100, 0.9, 0.9);
+    fogata.scrollFactor.set(1, 1);
+    add(fogata);
         
         */
+    if(!ClientPrefs.data.lowQuality)
+      {
+        gcloud = new BGSprite('fl_trouble/glitch_cloud', -500, -600, 0.9, 0.9, ['nubes y shit instancia 1']);
+        gcloud.scrollFactor.set(1, 1);
+        add(gcloud);
 
-        if(!ClientPrefs.data.lowQuality)
-          {
-            gcloud = new BGSprite('fl_trouble/glitch_cloud', -500, -600, 0.9, 0.9, ['nubes y shit instancia 1']);
-            gcloud.scrollFactor.set(1, 1);
-            add(gcloud);
+        gcloudb = new BGSprite('fl_trouble/glitch_coud2', 1500, -700, 0.9, 0.9, ['Symbol 1 instancia 1']);
+        gcloudb.scrollFactor.set(1, 1);
+        add(gcloudb);
 
-            gcloudb = new BGSprite('fl_trouble/glitch_coud2', 1500, -700, 0.9, 0.9, ['Symbol 1 instancia 1']);
-            gcloudb.scrollFactor.set(1, 1);
-            add(gcloudb);
+        edificio = new BGSprite('fl_trouble/corrupted_school', 0, -650, 0.9, 0.9, ['escuela instancia 1']);
+        edificio.scrollFactor.set(1, 1);
+        add(edificio);
 
-            edificio = new BGSprite('fl_trouble/corrupted_school', 0, -650, 0.9, 0.9, ['escuela instancia 1']);
-            edificio.scrollFactor.set(1, 1);
-            add(edificio);
+        exitdoor = new BGSprite('fl_trouble/exit', 700, -200, 0.9, 0.9, ['exit instancia 1']);
+        exitdoor.scrollFactor.set(1, 1);
+        add(exitdoor);
 
-            exitdoor = new BGSprite('fl_trouble/exit', 700, -200, 0.9, 0.9, ['exit instancia 1']);
-            exitdoor.scrollFactor.set(1, 1);
-            add(exitdoor);
+        bus = new BGSprite('fl_trouble/bus', 1500, 0, 0.9, 0.9, ['cambion instancia 1']);
+        bus.scrollFactor.set(1, 1);
+        add(bus);
 
-            bus = new BGSprite('fl_trouble/bus', 1500, 0, 0.9, 0.9, ['cambion instancia 1']);
-            bus.scrollFactor.set(1, 1);
-            add(bus);
+        table = new BGSprite('fl_trouble/table', 1500, 700, 0.9, 0.9, ['mesa instancia 1']);
+        table.scrollFactor.set(1, 1);
+        add(table);
 
-            table = new BGSprite('fl_trouble/table', 1500, 700, 0.9, 0.9, ['mesa instancia 1']);
-            table.scrollFactor.set(1, 1);
-            add(table);
+        platform = new BGSprite('fl_trouble/flplat', -600, 400, 0.9, 0.9, ['nul p instancia 1']);
+        platform.scrollFactor.set(1, 1);
+        add(platform);
 
-            platform = new BGSprite('fl_trouble/flplat', -600, 400, 0.9, 0.9, ['nul p instancia 1']);
-            platform.scrollFactor.set(1, 1);
-            add(platform);
-          }
+        fire = new BGSprite('fl_trouble/up_fre', -1100, -1100, 0.9, 0.9);
+        fire.scrollFactor.set( 0.5, 0.5);
+        add(fire);
+          
+      }
 	}
 /*
 	override function createPost()
