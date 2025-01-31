@@ -16,5 +16,10 @@
 	<SubTexture name="soa0011" x="988" y="558" width="494" height="465" frameX="0" frameY="0" frameWidth="494" frameHeight="567"/>
 	<SubTexture name="soa0012" x="1482" y="558" width="494" height="499" frameX="0" frameY="0" frameWidth="494" frameHeight="567"/>
 	<SubTexture name="soa0013" x="1482" y="558" width="494" height="499" frameX="0" frameY="0" frameWidth="494" frameHeight="567"/>
-	<SubTexture name="soa0014" x="0" y="1125" width="494" height="499" frameX="0" frameY="0" frameWidth="494" frameHeight="567"/>
+	<SubTexture name="soa0014" x="0" y="1125" width="494" height="509" frameX="0" frameY="0" frameWidth="494" frameHeight="567"/>
+	<SubTexture name="soa0015" x="494" y="1125" width="494" height="509" frameX="0" frameY="0" frameWidth="494" frameHeight="567"/>
+	<SubTexture name="soa0016" x="988" y="1125" width="494" height="501" frameX="0" frameY="0" frameWidth="494" frameHeight="567"/>
+	<SubTexture name="soa0017" x="988" y="1125" width="494" height="501" frameX="0" frameY="0" frameWidth="494" frameHeight="567"/>
+	<SubTexture name="soa0018" x="1482" y="1125" width="494" height="499" frameX="0" frameY="0" frameWidth="494" frameHeight="567"/>
+	<SubTexture name="soa0019" x="1482" y="1125" width="494" height="499" frameX="0" frameY="0" frameWidth="494" frameHeight="567"/>
 </TextureAtlas>
