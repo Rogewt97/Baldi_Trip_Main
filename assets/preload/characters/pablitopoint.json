@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-69,
+				-300
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-136,
+				-315
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-5,
+				-205
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-289,
+				-270
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-20,
+				-270
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pepito/pablitopoint",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "pep",
+	"flip_x": false,
+	"healthbar_colors": [
+		238,
+		200,
+		60
+	],
+	"camera_position": [
+		110,
+		320
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

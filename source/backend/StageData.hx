@@ -59,6 +59,10 @@ class StageData {
 					stage = 'forest';
 				case 'encrypted-gateway':
 					stage = 'brokenSchool';
+				case 'boilin':
+					stage = 'boilin';
+
+
 				case 'spookeez' | 'south' | 'monster':
 					stage = 'spooky';
 				case 'pico' | 'blammed' | 'philly' | 'philly-nice':
@@ -122,6 +126,8 @@ class StageData {
 				return 'forest';
 			case 'encrypted-gateway' :
 				return 'brokenSchool';
+			case 'ses':
+				return 'boilin';
 			case 'spookeez' | 'south' | 'monster':
 				return 'spooky';
 			case 'pico' | 'blammed' | 'philly' | 'philly-nice':

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nieve.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cai0000" x="0" y="0" width="319" height="155" frameX="0" frameY="0" frameWidth="321" frameHeight="155"/>
+	<SubTexture name="cai0001" x="0" y="0" width="319" height="155" frameX="0" frameY="0" frameWidth="321" frameHeight="155"/>
+	<SubTexture name="cai0002" x="319" y="0" width="321" height="155"/>
+	<SubTexture name="cai0003" x="319" y="0" width="321" height="155"/>
+	<SubTexture name="cai0004" x="640" y="0" width="320" height="155" frameX="0" frameY="0" frameWidth="321" frameHeight="155"/>
+	<SubTexture name="cai0005" x="640" y="0" width="320" height="155" frameX="0" frameY="0" frameWidth="321" frameHeight="155"/>
+	<SubTexture name="cai0006" x="0" y="155" width="320" height="155" frameX="0" frameY="0" frameWidth="321" frameHeight="155"/>
+	<SubTexture name="cai0007" x="0" y="155" width="320" height="155" frameX="0" frameY="0" frameWidth="321" frameHeight="155"/>
+	<SubTexture name="cai0008" x="320" y="155" width="321" height="155"/>
+	<SubTexture name="cai0009" x="320" y="155" width="321" height="155"/>
+	<SubTexture name="cai0010" x="641" y="155" width="320" height="155" frameX="0" frameY="0" frameWidth="321" frameHeight="155"/>
+	<SubTexture name="cai0011" x="641" y="155" width="320" height="155" frameX="0" frameY="0" frameWidth="321" frameHeight="155"/>
+</TextureAtlas>

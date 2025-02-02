@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pufff.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="uff instancia 10000" x="0" y="0" width="1533" height="1061" frameX="-104" frameY="-127" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10001" x="1533" y="0" width="1398" height="1145" frameX="-239" frameY="-126" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10002" x="2931" y="0" width="1169" height="1299" frameX="-421" frameY="-85" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10003" x="4100" y="0" width="903" height="1339" frameX="-621" frameY="-104" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10004" x="5003" y="0" width="662" height="1263" frameX="-810" frameY="-181" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10005" x="5665" y="0" width="636" height="1099" frameX="-886" frameY="-301" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10006" x="6301" y="0" width="703" height="890" frameX="-918" frameY="-444" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10007" x="7004" y="0" width="706" height="681" frameX="-983" frameY="-587" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10008" x="0" y="1339" width="637" height="518" frameX="-1086" frameY="-707" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10009" x="637" y="1339" width="524" height="440" frameX="-1213" frameY="-785" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10010" x="0" y="0" width="1533" height="1061" frameX="-371" frameY="-352" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10011" x="1161" y="1339" width="1477" height="1004" frameX="-318" frameY="-311" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10012" x="2638" y="1339" width="1417" height="942" frameX="-267" frameY="-272" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10013" x="4055" y="1339" width="1351" height="876" frameX="-219" frameY="-235" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10014" x="5406" y="1339" width="1278" height="808" frameX="-175" frameY="-199" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10015" x="6684" y="1339" width="1199" height="740" frameX="-133" frameY="-163" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10016" x="0" y="2343" width="1113" height="676" frameX="-95" frameY="-125" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10017" x="1113" y="2343" width="1020" height="614" frameX="-60" frameY="-86" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10018" x="2133" y="2343" width="920" height="557" frameX="-29" frameY="-45" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10019" x="3053" y="2343" width="816" height="507" frameX="0" frameY="0" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10020" x="0" y="0" width="1533" height="1061" frameX="-104" frameY="-127" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10021" x="3869" y="2343" width="1425" height="1002" frameX="-141" frameY="-197" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10022" x="5294" y="2343" width="1308" height="984" frameX="-183" frameY="-244" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10023" x="6602" y="2343" width="1185" height="980" frameX="-228" frameY="-275" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10024" x="0" y="3345" width="1060" height="967" frameX="-274" frameY="-315" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10025" x="1060" y="3345" width="937" height="939" frameX="-319" frameY="-364" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10026" x="1997" y="3345" width="818" height="889" frameX="-362" frameY="-424" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10027" x="2815" y="3345" width="707" height="820" frameX="-401" frameY="-494" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10028" x="3522" y="3345" width="610" height="733" frameX="-433" frameY="-573" frameWidth="1903" frameHeight="1444"/>
+	<SubTexture name="uff instancia 10029" x="4132" y="3345" width="525" height="630" frameX="-459" frameY="-659" frameWidth="1903" frameHeight="1444"/>
+</TextureAtlas>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pepito.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pepito down0000" x="0" y="0" width="103" height="95" frameX="0" frameY="-2" frameWidth="103" frameHeight="97"/>
+	<SubTexture name="pepito down0001" x="0" y="0" width="103" height="95" frameX="0" frameY="-2" frameWidth="103" frameHeight="97"/>
+	<SubTexture name="pepito down0002" x="103" y="0" width="89" height="87" frameX="-5" frameY="-3" frameWidth="103" frameHeight="97"/>
+	<SubTexture name="pepito down0003" x="103" y="0" width="89" height="87" frameX="-5" frameY="-3" frameWidth="103" frameHeight="97"/>
+	<SubTexture name="pepito down0004" x="192" y="0" width="83" height="90" frameX="-8" frameY="0" frameWidth="103" frameHeight="97"/>
+	<SubTexture name="pepito down0005" x="192" y="0" width="83" height="90" frameX="-8" frameY="0" frameWidth="103" frameHeight="97"/>
+	<SubTexture name="pepito down0006" x="275" y="0" width="81" height="90" frameX="-9" frameY="0" frameWidth="103" frameHeight="97"/>
+	<SubTexture name="pepito down0007" x="275" y="0" width="81" height="90" frameX="-9" frameY="0" frameWidth="103" frameHeight="97"/>
+	<SubTexture name="pepito down0008" x="275" y="0" width="81" height="90" frameX="-9" frameY="0" frameWidth="103" frameHeight="97"/>
+	<SubTexture name="pepito down0009" x="275" y="0" width="81" height="90" frameX="-9" frameY="0" frameWidth="103" frameHeight="97"/>
+	<SubTexture name="pepito idle0000" x="356" y="0" width="102" height="99" frameX="0" frameY="-6" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0001" x="356" y="0" width="102" height="99" frameX="0" frameY="-6" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0002" x="458" y="0" width="97" height="99" frameX="-2" frameY="-6" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0003" x="458" y="0" width="97" height="99" frameX="-2" frameY="-6" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0004" x="555" y="0" width="94" height="101" frameX="-4" frameY="-4" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0005" x="555" y="0" width="94" height="101" frameX="-4" frameY="-4" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0006" x="649" y="0" width="91" height="103" frameX="-7" frameY="-2" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0007" x="649" y="0" width="91" height="103" frameX="-7" frameY="-2" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0008" x="740" y="0" width="89" height="105" frameX="-9" frameY="0" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0009" x="740" y="0" width="89" height="105" frameX="-9" frameY="0" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0010" x="740" y="0" width="89" height="105" frameX="-9" frameY="0" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0011" x="740" y="0" width="89" height="105" frameX="-9" frameY="0" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0012" x="740" y="0" width="89" height="105" frameX="-9" frameY="0" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0013" x="740" y="0" width="89" height="105" frameX="-9" frameY="0" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito idle0014" x="740" y="0" width="89" height="105" frameX="-9" frameY="0" frameWidth="102" frameHeight="105"/>
+	<SubTexture name="pepito left0000" x="829" y="0" width="131" height="113"/>
+	<SubTexture name="pepito left0001" x="829" y="0" width="131" height="113"/>
+	<SubTexture name="pepito left0002" x="0" y="113" width="119" height="103" frameX="-5" frameY="-3" frameWidth="131" frameHeight="113"/>
+	<SubTexture name="pepito left0003" x="0" y="113" width="119" height="103" frameX="-5" frameY="-3" frameWidth="131" frameHeight="113"/>
+	<SubTexture name="pepito left0004" x="119" y="113" width="114" height="103" frameX="-11" frameY="-3" frameWidth="131" frameHeight="113"/>
+	<SubTexture name="pepito left0005" x="119" y="113" width="114" height="103" frameX="-11" frameY="-3" frameWidth="131" frameHeight="113"/>
+	<SubTexture name="pepito left0006" x="233" y="113" width="105" height="103" frameX="-20" frameY="-3" frameWidth="131" frameHeight="113"/>
+	<SubTexture name="pepito left0007" x="233" y="113" width="105" height="103" frameX="-20" frameY="-3" frameWidth="131" frameHeight="113"/>
+	<SubTexture name="pepito left0008" x="233" y="113" width="105" height="103" frameX="-20" frameY="-3" frameWidth="131" frameHeight="113"/>
+	<SubTexture name="pepito left0009" x="233" y="113" width="105" height="103" frameX="-20" frameY="-3" frameWidth="131" frameHeight="113"/>
+	<SubTexture name="pepito right0000" x="338" y="113" width="136" height="109"/>
+	<SubTexture name="pepito right0001" x="338" y="113" width="136" height="109"/>
+	<SubTexture name="pepito right0002" x="474" y="113" width="123" height="99" frameX="-4" frameY="-3" frameWidth="136" frameHeight="109"/>
+	<SubTexture name="pepito right0003" x="474" y="113" width="123" height="99" frameX="-4" frameY="-3" frameWidth="136" frameHeight="109"/>
+	<SubTexture name="pepito right0004" x="597" y="113" width="118" height="99" frameX="-4" frameY="-3" frameWidth="136" frameHeight="109"/>
+	<SubTexture name="pepito right0005" x="597" y="113" width="118" height="99" frameX="-4" frameY="-3" frameWidth="136" frameHeight="109"/>
+	<SubTexture name="pepito right0006" x="715" y="113" width="113" height="99" frameX="-4" frameY="-3" frameWidth="136" frameHeight="109"/>
+	<SubTexture name="pepito right0007" x="715" y="113" width="113" height="99" frameX="-4" frameY="-3" frameWidth="136" frameHeight="109"/>
+	<SubTexture name="pepito right0008" x="715" y="113" width="113" height="99" frameX="-4" frameY="-3" frameWidth="136" frameHeight="109"/>
+	<SubTexture name="pepito right0009" x="715" y="113" width="113" height="99" frameX="-4" frameY="-3" frameWidth="136" frameHeight="109"/>
+	<SubTexture name="pepito up0000" x="828" y="113" width="117" height="107" frameX="0" frameY="0" frameWidth="117" frameHeight="121"/>
+	<SubTexture name="pepito up0001" x="828" y="113" width="117" height="107" frameX="0" frameY="0" frameWidth="117" frameHeight="121"/>
+	<SubTexture name="pepito up0002" x="0" y="222" width="91" height="99" frameX="-9" frameY="-8" frameWidth="117" frameHeight="121"/>
+	<SubTexture name="pepito up0003" x="0" y="222" width="91" height="99" frameX="-9" frameY="-8" frameWidth="117" frameHeight="121"/>
+	<SubTexture name="pepito up0004" x="91" y="222" width="92" height="99" frameX="-9" frameY="-16" frameWidth="117" frameHeight="121"/>
+	<SubTexture name="pepito up0005" x="91" y="222" width="92" height="99" frameX="-9" frameY="-16" frameWidth="117" frameHeight="121"/>
+	<SubTexture name="pepito up0006" x="183" y="222" width="95" height="99" frameX="-9" frameY="-22" frameWidth="117" frameHeight="121"/>
+	<SubTexture name="pepito up0007" x="183" y="222" width="95" height="99" frameX="-9" frameY="-22" frameWidth="117" frameHeight="121"/>
+	<SubTexture name="pepito up0008" x="183" y="222" width="95" height="99" frameX="-9" frameY="-22" frameWidth="117" frameHeight="121"/>
+	<SubTexture name="pepito up0009" x="183" y="222" width="95" height="99" frameX="-9" frameY="-22" frameWidth="117" frameHeight="121"/>
+</TextureAtlas>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bus.png"><SubTexture name="bus idle0000" x="702" y="1035" width="351" height="220" frameX="-80" frameY="-175" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus idle0001" x="351" y="1035" width="351" height="242" frameX="-80" frameY="-153" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus idle0002" x="0" y="1035" width="351" height="261" frameX="-80" frameY="-134" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus idle0003" x="1053" y="339" width="351" height="279" frameX="-80" frameY="-116" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus left0000" x="706" y="0" width="347" height="365" frameX="-1" frameY="-37" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus left0001" x="0" y="394" width="352" height="361" frameX="-19" frameY="-48" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus left0002" x="352" y="394" width="355" height="355" frameX="-35" frameY="-64" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus down0000" x="1053" y="618" width="353" height="43" frameX="-79" frameY="-353" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus down0001" x="355" y="1296" width="355" height="59" frameX="-78" frameY="-338" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus down0002" x="0" y="1296" width="355" height="76" frameX="-78" frameY="-322" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus up0000" x="0" y="0" width="353" height="394" frameX="-79" frameY="-2" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus up0001" x="353" y="0" width="353" height="366" frameX="-79" frameY="-30" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus up0002" x="1053" y="0" width="353" height="339" frameX="-79" frameY="-57" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus right0000" x="0" y="755" width="422" height="280" frameX="-80" frameY="-115" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus right0001" x="422" y="755" width="403" height="280" frameX="-80" frameY="-115" frameWidth="511" frameHeight="511" />
+<SubTexture name="bus right0002" x="825" y="755" width="381" height="280" frameX="-80" frameY="-115" frameWidth="511" frameHeight="511" />
+</TextureAtlas>
